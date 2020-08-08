@@ -74,38 +74,35 @@
           </div>
 
           <!--|Navbar collapse|-->
-          <div class="collapse navbar-collapse" id="menu">
+          <div class="collapse navbar-collapse menu-bar" id="menu">
             <ul class="nav navbar-nav navbar-right">
               <li class="nav-item"><a href="#">Accueil</a></li>
               <li class="nav-item"><a href="#">hôpitaux</a></li>
               <li class="nav-item"><a href="#">Associations</a></li>
               <li class="nav-item"><a href="#">Formations</a></li>
               <li class="nav-item"><a href="#">About</a></li>
-              <!-- <li><a href="#gallery">Langue</a></li> -->
-              <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                      aria-haspopup="true" aria-expanded="false">
-                      Langue
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">العربية</a>
-                      <a class="dropdown-item" href="#">Français</a>
-                      <a class="dropdown-item" href="#">English</a>
-              
-                  </div>
-              </li>
-              <!-- <li><a href="#">Login</a></li>-->
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-                  Login
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Patient</a>
-                  <a class="dropdown-item" href="#">Hopital</a>
-                  <a class="dropdown-item" href="#">Association</a>
+              <li class="nav-item">
+                <a href="#">Langue</a>
+                <div class="menu0">
+                  <ul>                  
+                      <li><a>العربية</a></li>
+                      <li><a>Français</a></li>
+                      <li><a>English</a></li>                    
+                  </ul>
                 </div>
               </li>
+              <li class="nav-item">
+                <a href="#">Login</a>
+                <div class="menu0">
+                  <ul>
+                    <li><a>Patient</a></li>
+                    <li><a>Hopitale</a></li>                              
+                    <li><a>Association</a></li>
+                  </ul>
+                </div>
+              </li>              
+              <!-- <li><a href="#gallery">Langue</a></li> -->              
+              <!-- <li><a href="#">Login</a></li>-->              
             </ul>
           </div> <!--|End Navbar collapse|-->
         </div>
@@ -205,12 +202,12 @@
         </div>
       </header> <!--|End Section Header|-->
 
-      <div class="row ">
-        <div class="col-md-3 col-sm-6 ">
+      <div class="row">
+        <div class="col-md-4 col-sm-6  ">
           <!--|speaker|-->
           <div class="speaker">
-            <figure class="avatar">
-              <img src="assets/images/Amal des Malades1.jpg" alt="">
+            <figure class="avatar-co avatar">
+              <p><img src="assets/images/Amal des Malades1.jpg"  alt=""></p>
 
               <figcaption class="social-links">
                <a href="#">Lire la suite</a>
@@ -219,16 +216,15 @@
 
             <div class="speaker-info">
               <h4 class="name">Amal des Malades </h4>
-              <p>07 août 2020, Settat, Maroc</p>
+              <cite>07 août 2020, Settat, Maroc</cite>
             </div>
           </div> <!--|End speaker|-->
         </div>
-
-        <div class="col-md-3 col-sm-6 align-items-end">
+        <div class="col-md-4 col-sm-6 ">
           <!--|speaker|-->
           <div class="speaker">
-            <figure class="avatar">
-              <img src="assets/images/wiqaytna-fr.jpg" alt="">
+            <figure class="avatar-co avatar">
+              <img src="assets/images/wiqaytna-fr.jpg"  alt="">
 
               <figcaption class="social-links">
                 <a href="#">Lire la suite</a>
@@ -237,16 +233,16 @@
 
             <div class="speaker-info">
               <h4 class="name">WIQAYTNA</h4>
-              <p>application mobile de notification d’exposition au Coronavirus responsable de la maladie « COVID-19 »</p>
+              <p>application mobile de notification d’exposition au Coronavirus responsable de la maladie «COVID-19»</p>
               <cite>05 juin 2020, Rabat, Maroc</cite>
             </div>
           </div> <!--|End speaker|-->
         </div>
 
-        <div class="col-md-3 col-sm-6 align-items-end">
+        <div class="col-md-4 col-sm-6">
           <!--|speaker|-->
-          <div class="speaker" style="max-width: 100%;">
-            <figure class="avatar" >
+          <div class="speaker" >
+            <figure class="avatar-co avatar" >
               <img src="assets/images/cov.jpg" alt="">
         
               <figcaption class="social-links">
@@ -260,13 +256,14 @@
               <cite>26 février 2020, Rabat, Maroc</cite>
             </div>
           </div>
+          <br>
           <!--|End speaker|-->
         </div>
         <div class="row">
-        <div class="col-md-12 col-sm-12 align-items-end">
+        <div class="col-md-12 col-sm-12 ">
           <!--|speaker|-->
-          <div class="speaker" style="max-width: 1130px; ">
-            <figure class="avatar">
+          <div class="speaker" style="max-width: 100%; ">
+            <figure class="avatar" style="margin-top: 40px;">
               <img src="https://cliniquejerrada.ma/wp-content/uploads/2019/11/slider-Cjo-02.jpg" alt="">
         
               <figcaption class="social-links">
@@ -286,7 +283,7 @@
         <div class="row">
         <div class="col-md-12 col-sm-12 align-items-end">
             <!--|speaker|-->
-            <div class="speaker" style="max-width: 1130px; ">
+            <div class="speaker" style="max-width: 100%; margin-top: 40px;">
               <figure class="avatar">
                 <img src="http://www.hcz.ma/hcz_uploads/2017/02/1-12-min.jpg" width="1130px" alt="">
           
@@ -334,10 +331,14 @@
     <div class="sponsor-panel">
       <!--|Sponsors|-->
       <ul class="sponsors">
-        <li><a href="#"><img src="https://cliniquejerrada.ma/wp-content/uploads/2019/11/LOGO-CJO_White-Web.png" alt=""></a></li>
-        <li><a href="#"><img src="assets/images/CHU.png"  alt=""></a></li>
-        <li><a href="#"><img src="http://www.hcz.ma/hcz_uploads/2017/02/header-image10-logo-min.png" alt=""></a></li>
-        <li><a href="#"><img src="http://clinique-agdal.com/CSS/logo.png" alt=""></a></li>
+        <li><a href="#"><img src="assets/images/sponsors/logo01.png" alt=""></a></li>
+        <li><a href="#"><img src="assets/images/sponsors/logo02.png" alt=""></a></li>
+        <li><a href="#"><img src="assets/images/sponsors/logo03.png" alt=""></a></li>
+        <li><a href="#"><img src="assets/images/sponsors/logo04.png" alt=""></a></li>
+        <li><a href="#"><img src="assets/images/sponsors/logo05.png" alt=""></a></li>
+        <li><a href="#"><img src="assets/images/sponsors/logo06.png" alt=""></a></li>
+        <li><a href="#"><img src="assets/images/sponsors/logo07.png" alt=""></a></li>
+        <li><a href="#"><img src="assets/images/sponsors/logo08.png" alt=""></a></li>
         
         
       </ul> <!--|End Sponsors|-->
