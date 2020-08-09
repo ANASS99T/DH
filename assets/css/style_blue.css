@@ -441,7 +441,7 @@ img {
 }
 
 .overlay-black .overlay-inner {
-  background-color: rgba(16, 16, 16, 0.75);
+  background-color: rgba(16, 16, 16, 0.6);
 }
 
 .overlay-white .overlay-inner {

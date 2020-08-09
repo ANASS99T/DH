@@ -1,0 +1,95 @@
+.header {
+  margin-top: 10px;
+  padding: 50px 22px;
+  min-height: 240px;
+  text-align: center;
+  color: #fff;
+  background-color: gray;
+}
+.section {
+  width: 96%;
+  max-width: 960px;
+  margin: 80px auto 80px auto;
+  text-align: center;
+  margin-top: -100px;
+}
+.column {
+  display: inline-block;
+  width: 320px;
+  text-align: center;
+}
+.column div {
+  margin: 0px auto;
+}
+
+.circular--square {
+  border-radius: 50%;
+}
+
+.circular--landscape {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--landscape img {
+  width: auto;
+  height: 100%;
+  margin-left: -50px;
+}
+
+.circular--portrait {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--portrait img {
+  width: 100%;
+  height: auto;
+}
+
+
+.info{
+    margin-top: -60px;
+}
+.info-personelle{
+    /* margin-top: 20px; */
+    margin-bottom: 30px;
+}
+/* 
+body{
+     background-image: url("../images/788.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    
+} */
+
+.navbar-brand{
+    /* margin-top: 5px; */
+    font-size: 20pt;
+}
+.navbar-nav{
+    font-size: 14pt;
+
+}
+h5{
+    margin-top: 7px;
+    margin-right: 20px;
+}
+.logoimg{
+    width: 120%;
+}
+
+h2{
+    font-weight: 15pt;
+    text-align: left;
+    margin-bottom: 20px;
+    }
